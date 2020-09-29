@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    	<meta charset=“utf-8”>
+    </head>
+
+    <body>
+
+        <script>
+
+        var qtdAlunos = 0;
+        var resposta = prompt("Dezeja participar da pesquisa?");
+
+        while (resposta == "Sim"){
+        	prompt("Quantas vezes você utilizou o Restaurante Universitário esse mês?");
+        	qtdAlunos ++;
+        	resposta = prompt("Dezeja participar da pesquisa?");
+        }	
+        document.write(qtdAlunos + " alunos participaram da pesquisa.");
+
+        </script>
+
+    </body>
+
+</html> 
